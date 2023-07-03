@@ -14,7 +14,6 @@ function Emp() {
       {dataFromApi.map((data) => (
         <div className="empglass special">
           <h2 className="white">
-            {" "}
             Name: {data.firstName} {data.lastName}
           </h2>
           <h2 className="white">Age: {data.age}</h2>
