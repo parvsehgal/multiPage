@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(36, 34, 34);
+  position: fixed;
+  width: 100vw;
+  margin-top: -10px;
+}
+.home,
+.emp,
+.abt {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+.empglass,
+.about,
+.hhome {
+  background: linear-gradient(
+    135deg,
+    rgba(225, 225, 225, 0.1),
+    rgba(225, 225, 225, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(225, 225, 225, 0.18);
+  height: 500px;
+  width: 500px;
+}
+.empcont,
+.aboutcont,
+.homecont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.white {
+  color: white;
+}
+.hhome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empcont {
+  flex-wrap: wrap;
+}
+.empglass {
+  height: 200px;
+  width: 300px;
+}
