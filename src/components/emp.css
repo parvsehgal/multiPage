@@ -1,0 +1,62 @@
+.whiteTable {
+  background-color: white;
+  width: 1000px;
+  height: 555px;
+  border-radius: 7px;
+}
+.tContainer {
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+.headingRow {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.allHead {
+  margin-left: 150px;
+}
+.allHead:hover {
+  cursor: pointer;
+}
+table {
+  border: 1px solid;
+  padding-right: 0px;
+  margin-left: 20px;
+}
+tr {
+  border: 1px solid;
+  padding-right: 135px;
+}
+.empimg {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: 150px;
+}
+.hoverEff:hover {
+  background-color: black;
+  color: white;
+}
+
+.pageBtn {
+  height: 40px;
+  width: 40px;
+  border: none;
+  margin: 1px;
+}
+.pageBtn:hover {
+  cursor: pointer;
+}
+.btnPressed {
+  background-color: black;
+  color: white;
+}
+.prevNext {
+  height: 40px;
+  width: 50px;
+}
+.prevNext:hover {
+  cursor: pointer;
+}

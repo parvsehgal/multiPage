@@ -1,0 +1,6 @@
+<tr className="headingRow">
+            <td className=" allHead">Germany</td>
+            <td className="allHead">Germany</td>
+            <td className="allHead">Germany</td>
+            <td className="allHead">Germany</td>
+          </tr>

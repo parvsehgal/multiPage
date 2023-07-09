@@ -6,6 +6,7 @@
   position: fixed;
   width: 100vw;
   margin-top: -10px;
+  z-index: 1;
 }
 .home,
 .emp,
@@ -30,7 +31,7 @@
   height: 500px;
   width: 500px;
 }
-.empcont,
+
 .aboutcont,
 .homecont {
   display: flex;
@@ -51,10 +52,30 @@
   justify-content: center;
   align-items: center;
 }
-.empcont {
-  flex-wrap: wrap;
+.table {
+  margin-left: 100px;
+  margin-top: 100px;
 }
-.empglass {
-  height: 200px;
-  width: 300px;
+.space {
+  margin-left: 50px;
+  padding-right: 50px;
+}
+.name {
+  margin-left: 50px;
+  padding-right: 50px;
+}
+.pagination {
+  display: flex;
+  height: 800px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonsdiv {
+  margin-left: 510px;
+  position: relative;
+  margin-top: -130px;
+}
+.active {
+  color: aqua;
 }

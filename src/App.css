@@ -1,7 +1,7 @@
-.main{
-  height: 100vh;
+.main {
+  height: 100vw;
   width: 100vw;
-  background-image: url('D:\Desktop\Internship_projects\multipage\picture.jpg');
+  background-image: url("D:\Desktop\Internship_projects\multipage\picture.jpg");
   background-size: cover;
 }
 .App {
@@ -41,4 +41,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.black {
+  color: white;
+  background-color: black;
 }

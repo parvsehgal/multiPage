@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
+import { NavLink, NavLinkink } from "react-router-dom";
 import "./nav.css";
 function Nav() {
   return (
     <div className="navbar">
-      <Link className="home" to="/">
+      <NavLink className="home" to="/">
         Home
-      </Link>
-      <Link className="emp" to="/emp">
+      </NavLink>
+      <NavLink className="emp" to="/emp">
         Employees
-      </Link>
-      <Link className="abt" to="/about">
+      </NavLink>
+      <NavLink className="abt" to="/about">
         About
-      </Link>
+      </NavLink>
     </div>
   );
 }
